@@ -21,15 +21,13 @@ Edit `composer.json`
             "type": "vcs",
             "url": "https://github.com/ozzytop/m2-playing-with-checkout"
         }
-    ],
-    "require": {
-        "ozzytop/m2-playing-with-checkout": "dev-master"
-    }
+    ]
 }
 ```
 
 ```
-composer install
+composer require ozzytop/ozzytop/m2-playing-with-checkout:dev-master
+php bin/magento module:enable Ozzytop_PlayingCheckout
 php bin/magento setup:upgrade
 php bin/magento setup:static-content:deploy
 ```
@@ -41,6 +39,7 @@ Download latest version from GitHub
 Paste into `app/code/Ozzytop/PlayingCheckout` directory
 
 ```
+php bin/magento module:enable Ozzytop_PlayingCheckout
 php bin/magento setup:upgrade
 php bin/magento setup:static-content:deploy
 ```
