@@ -10,7 +10,7 @@ Changes that has been done:
 
 ## How to install
 
-### 1. via composer
+### Via composer
 
 Edit `composer.json`
 
@@ -23,7 +23,7 @@ Edit `composer.json`
         }
     ],
     "require": {
-        "ozzytop/m2-playing-with-checkout": "master"
+        "ozzytop/m2-playing-with-checkout": "dev-master"
     }
 }
 ```
@@ -34,7 +34,7 @@ php bin/magento setup:upgrade
 php bin/magento setup:static-content:deploy
 ```
 
-### 2. Copy and paste
+### Or copy and paste
 
 Download latest version from GitHub
 
@@ -45,7 +45,7 @@ php bin/magento setup:upgrade
 php bin/magento setup:static-content:deploy
 ```
 
-### 3. Testing
+## Usage
 
 Once is enabled you will see the changes in the Checkout page, enjoy!!
 
